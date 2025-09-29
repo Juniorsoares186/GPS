@@ -1,0 +1,5 @@
+{
+  "name": "Copy of PANORAMA GPS",
+  "description": "Faça upload de um arquivo CSV com dados de mercado (high, low, close) para calcular pontos de pivô e obter uma análise gerada por IA.",
+  "requestFramePermissions": []
+}
