@@ -4,8 +4,39 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Regiões de Trading</title>
+    <meta name="description" content="Plataforma profissional de análise técnica para day trade" />
+    <title>Panorama Analytics - Análise Técnica Profissional</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+      * { font-family: 'Inter', sans-serif; }
+      code, pre, .font-mono { font-family: 'JetBrains Mono', monospace; }
+
+      @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes slideInRight { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
+      @keyframes pulse-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); } 50% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); } }
+      @keyframes shimmer { 0% { background-position: -1000px 0; } 100% { background-position: 1000px 0; } }
+      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+
+      .animate-fadeInUp { animation: fadeInUp 0.6s ease-out; }
+      .animate-slideInRight { animation: slideInRight 0.6s ease-out; }
+      .animate-pulse-glow { animation: pulse-glow 2s infinite; }
+      .animate-shimmer { animation: shimmer 2s infinite; }
+      .animate-float { animation: float 3s ease-in-out infinite; }
+
+      .bg-shimmer { background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); background-size: 1000px 100%; animation: shimmer 2s infinite; }
+
+      .glass-effect { backdrop-filter: blur(12px); background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(148, 163, 184, 0.1); }
+      .glass-effect-dark { backdrop-filter: blur(12px); background: rgba(2, 6, 23, 0.8); border: 1px solid rgba(51, 65, 85, 0.2); }
+      .glass-effect-light { backdrop-filter: blur(12px); background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(148, 163, 184, 0.15); }
+
+      .gradient-text { background: linear-gradient(135deg, #10b981, #06b6d4, #0ea5e9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+      .gradient-border { background: linear-gradient(135deg, #10b981, #06b6d4, #0ea5e9) border-box; }
+
+      .card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+      .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.5); }
+    </style>
   <script type="importmap">
 {
   "imports": {
